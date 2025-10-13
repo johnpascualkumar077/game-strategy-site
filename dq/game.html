@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゲーム攻略記事 | ドラクエ特集</title>
+    <meta name="description" content="ドラゴンクエストシリーズの各作品ごとの攻略記事を掲載。">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">ゲーム攻略ガイド</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">ホーム</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="index.html">ドラクエ特集</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container my-5">
+        <h1 class="mb-4">ドラクエシリーズ攻略記事</h1>
+        <div id="article-list"></div>
+    </div>
+    <footer class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>ゲーム攻略ガイド</h5>
+                    <p>ドラクエ特集ページ</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+    // 記事リストを動的に生成（サンプル静的実装）
+    const games = [
+      { name: 'DQ3 HD-2D', file: 'dq3hd2d.json', html: 'dq3hd2d.html' },
+      { name: 'DQ1&2 リメイク', file: 'dq1_2.json', html: 'dq1_2.html' },
+      { name: 'DQ7 Reimagined', file: 'dq7reimagined.json', html: 'dq7reimagined.html' }
+    ];
+    const list = document.getElementById('article-list');
+    let html = '<ul class="list-group">';
+    games.forEach(g => {
+      html += `<li class="list-group-item"><a href="${g.html}">${g.name} 攻略記事一覧</a></li>`;
+    });
+    html += '</ul>';
+    list.innerHTML = html;
+    </script>
+</body>
+</html>

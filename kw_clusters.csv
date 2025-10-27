@@ -1,0 +1,17 @@
+Cluster,Keyword,Intent,Parent,Notes
+攻略総合,モンハンNow 攻略,Informational,,メインKW/最新アップデート対応
+攻略総合,モンハンNow 初心者 ガイド,Informational,モンハンNow 攻略,導線：初心者ランディング
+攻略総合,モンハンNow 最新情報,Informational,モンハンNow 攻略,速報枠/イベント連動
+装備最適化,モンハンNow 最強装備,Transactional,,高意図・ランキングとビルド記事へ誘導
+装備最適化,モンハンNow 武器 ランキング,Informational,モンハンNow 最強装備,上位装備比較
+装備最適化,モンハンNow ライトボウガン 装備,Transactional,モンハンNow 最強装備,武器別テンプレ誘導
+装備最適化,モンハンNow 弓 装備,Transactional,モンハンNow 最強装備,装備構成比較
+周回効率,モンハンNow 周回 おすすめ,Informational,,定期更新/素材との内部リンク
+周回効率,モンハンNow 素材 集め,Informational,モンハンNow 周回 おすすめ,素材ドロップ表
+周回効率,モンハンNow リセマラ やり方,Informational,モンハンNow 周回 おすすめ,序盤加速Tips
+モンスター攻略,モンハンNow 弱点,Informational,,モンスター個別ページへ導線
+モンスター攻略,モンハンNow <モンスター名> 弱点,Informational,モンハンNow 弱点,ロングテール個別記事
+イベント,モンハンNow イベント,Informational,,スケジュール・最新トピック
+イベント,モンハンNow イベント 周回,Transactional,モンハンNow イベント,限定素材需要
+課金導線,モンハンNow 課金 おすすめ,Transactional,,アフィ誘導・注意表記
+サポート,モンハンNow エラー 対処,Informational,,FAQ誘導・滞在延長

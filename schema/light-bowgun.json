@@ -1,0 +1,56 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://example.com/mhnow/weapons/light-bowgun/#article",
+      "headline": "モンハンNow ライトボウガン最強ガイド：汎用・周回・高難度ビルド",
+      "description": "ライトボウガンのスキル優先度、用途別ビルド、素材周回、立ち回りを解説する総合ガイド。",
+      "datePublished": "2024-05-30",
+      "dateModified": "2024-05-30",
+      "mainEntityOfPage": "https://example.com/mhnow/weapons/light-bowgun/",
+      "author": {
+        "@type": "Person",
+        "name": "Game Strategy Lab"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Game Strategy Lab",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/img/logo.png"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://example.com/mhnow/weapons/light-bowgun/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "弾の調合は何を優先？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "属性弾を最優先で調合し、次に貫通弾Lv2を用意すると火力とサポートのバランスが取れます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "回避距離UPは何段階必要？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Lv2が最も扱いやすく、端末の操作感に合わせてLv1へ調整するのも有効です。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "装填拡張と弾導強化はどちらを優先？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "周回と汎用では弾導強化を優先し、高難度で弾切れが気になる場合のみ装填拡張を採用しましょう。"
+          }
+        }
+      ]
+    }
+  ]
+}

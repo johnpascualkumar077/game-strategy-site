@@ -1,0 +1,72 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://example.com/mhnow/#article",
+      "headline": "モンハンNow攻略トップ：今やるべき3つと最新トピック",
+      "description": "モンスターハンターNowの最新攻略情報。今やるべき行動や武器Tier、属性相性、周回ルートを初心者にもわかりやすく解説。",
+      "datePublished": "2024-05-30",
+      "dateModified": "2024-05-30",
+      "mainEntityOfPage": "https://example.com/mhnow/",
+      "author": {
+        "@type": "Person",
+        "name": "Game Strategy Lab"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Game Strategy Lab",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/img/logo.png"
+        }
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://example.com/mhnow/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "無課金で強くなる最短手順は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "デイリー採集で素材を貯めつつイベント限定素材を逃さないことが最短ルートです。ライトボウガン汎用ビルドを完成させれば安定して狩猟できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "いま作るべき武器は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "汎用性の高いライトボウガンを最優先に作り、次点で雷属性弓を揃えると環境モンスターに対応できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "周回はどこが効率良い？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "都市公園Aで飛竜種を狩り、必要に応じて工業区Bへ移動すると素材と経験値を同時に確保できます。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "弱点属性の調べ方は？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "モンスター別ページとゲーム内ハンターノートで弱点属性を確認し、狩猟前に装備を切り替えましょう。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "イベント期間中は何を優先？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "限定素材の確保とハントパス課題の同時進行を優先すると報酬効率が最大化します。"
+          }
+        }
+      ]
+    }
+  ]
+}
